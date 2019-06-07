@@ -18,4 +18,6 @@ Thumbs.db
 .aldryn
 /data
 /data.tar.gz
+/static_collected
+/node_modules
 # </DEFAULT>

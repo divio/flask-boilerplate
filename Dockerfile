@@ -8,10 +8,11 @@
 FROM divio/base:4.15-py3.6-slim-stretch
 # </DOCKER_FROM>
 
-# <SOURCE>
 COPY . /app
-# </SOURCE>
-
-COPY ./hello.py /app
+WORKDIR /app
 
 RUN pip install -r requirements.txt
+
+ENV FLASK_APP=/app/hello.py
+
+EXPOSE 80

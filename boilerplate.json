@@ -1,0 +1,10 @@
+{
+    "package-name": "flask-boilerplate",
+    "templates": [],
+    "identifier": "flask",
+    "version": "1.0.2.1",
+    "excluded": [
+         "LICENSE.txt",
+         ".DS_Store"
+     ]
+ }

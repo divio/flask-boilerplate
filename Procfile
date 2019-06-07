@@ -1,2 +1,2 @@
-web: echo "yay"
-migrate: echo "yay"
+web: flask run --host=0.0.0.0 --port=80
+migrate: echo ''

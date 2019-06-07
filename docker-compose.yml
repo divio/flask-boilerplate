@@ -10,7 +10,7 @@ services:
     volumes:
       - ".:/app:rw"
       - "./data:/data:rw"
-    command: python manage.py runserver 0.0.0.0:80
+    command: FLASK_APP=./hello.py flask run --host=0.0.0.0 --port=8000
     env_file: .env-local
 
   db:

@@ -1,2 +1,2 @@
-web: aldryn-django web
-migrate: aldryn-django migrate
+web: echo "yay"
+migrate: echo "yay"

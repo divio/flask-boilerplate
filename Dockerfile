@@ -13,6 +13,6 @@ WORKDIR /app
 
 RUN pip install -r requirements.txt
 
-ENV FLASK_APP=/app/hello.py
+ENV FLASK_APP=/app/flaskr
 
 EXPOSE 80

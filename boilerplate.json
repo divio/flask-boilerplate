@@ -2,7 +2,7 @@
     "package-name": "flask-boilerplate",
     "templates": [],
     "identifier": "flask",
-    "version": "2.0.1.0",
+    "version": "2.0.2.0",
     "excluded": [
          "LICENSE.txt",
          ".DS_Store"
